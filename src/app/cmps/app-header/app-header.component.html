@@ -1,0 +1,18 @@
+<nav class="nav-container flex space-between align-center">
+    <a routerLink="/home">
+        <img src="../../../assets/img/clock.png" alt="app-logo" title="Go home" />
+    </a>
+    <div class="flex">
+        <!-- <a routerLinkActive="active-nav" routerLink="/home" [routerLinkActiveOptions]="{exact: true}">
+            <div class="flex align-center">
+                <span class="nav-txt">Home</span>
+            </div>
+        </a> -->
+        <a routerLinkActive="active-nav" routerLink="/clocks" [routerLinkActiveOptions]="{exact: true}">
+            <div class="flex align-center">
+                <span class="nav-txt">Clocks</span>
+            </div>
+        </a>
+    </div>
+
+</nav>

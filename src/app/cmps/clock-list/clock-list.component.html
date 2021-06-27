@@ -1,0 +1,4 @@
+<section class="clock-list">
+    <clock-preview *ngFor="let clock of clocks" [clock]="clock"  (removed)="removeClock($event)" >
+    </clock-preview>
+</section>
